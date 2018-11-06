@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>네이버 로그인</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/naver.login.css">
+</head>
+
+<body>
+    <section id="wrapper">
+        <header>
+            <select name="language" id="language">
+                <option value="ko">한국어</option>
+                <option value="en">English</option>
+                <option value="ch_cn">中文(简体)</option>
+                <option value="ch_tw">中文(台湾)</option>
+            </select>
+        </header>
+        <section class="login_area">
+            <header>
+                <img src="img/naver_logo_no_hat.png" alt="naver logo">
+            </header>
+            <section>
+                <input type="text" id="email_id" name="email_id" placeholder="아이디">
+                <input type="text" id="password" name="password" placeholder="비밀번호">
+                <a href="#" class="btn">로그인</a>
+                <div class="secure">
+                    <div class="checkbox">
+                        <input type="checkbox" name="id_keep" id="id_keep">
+                        <label for="id_keep">　로그인 상태 유지</label>
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="ip_on">
+                        <ul>
+                            <li>IP보안 <span class="em_green">ON</span></a></li>
+                            <li><a href="#" class="onetime">일회용 로그인</a> <i class="fas fa-question"></i></li>
+                        </ul>
+                    </div>                    
+                </div>
+            </section>
+            <footer id="footer">
+                <ul>
+                    <li><a href="#">아이디찾기</a></li>
+                    <li><a href="#">비밀번호 찾기</a></li>
+                    <li><a href="#">회원가입</a></li>
+                </ul>
+                <img src="img/naver_login_bottom.png" alt="">
+            </footer>
+        </section>
+    </section>
+</body>
+
+</html>
